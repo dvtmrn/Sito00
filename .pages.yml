@@ -3,7 +3,7 @@ media:
   output: /images
 
 content:
-  - name: home
+  - name: homes
     label: Home Page
     type: file
     path: docs/src/content/docs/index.mdx
