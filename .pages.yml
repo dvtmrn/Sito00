@@ -1,0 +1,20 @@
+media:
+  input: docs/public/images
+  output: /images
+
+content:
+  - name: docs
+    label: Pagine del Sito (Docs)
+    type: collection
+    path: docs/src/content/docs
+    fields:
+      - name: title
+        label: Titolo
+        type: string
+        required: true
+      - name: description
+        label: Descrizione
+        type: string
+      - name: body
+        label: Contenuto della pagina
+        type: rich-text
