@@ -3,11 +3,10 @@ media:
   output: /images
 
 content:
-  - name: docs
-    label: Pagine del Sito (Docs)
-    type: collection
-    path: docs/src/content/docs
-    extension: mdx
+  - name: home
+    label: Home Page
+    type: file
+    path: docs/src/content/docs/index.mdx
     fields:
       - name: title
         label: Titolo
@@ -17,5 +16,41 @@ content:
         label: Descrizione
         type: string
       - name: body
-        label: Contenuto della pagina
+        label: Contenuto
+        type: rich-text
+
+  - name: docs_mdx
+    label: Pagine Principali (MDX)
+    type: collection
+    path: docs/src/content/docs
+    extension: mdx
+    exclude:
+      - index.mdx
+    fields:
+      - name: title
+        label: Titolo
+        type: string
+        required: true
+      - name: description
+        label: Descrizione
+        type: string
+      - name: body
+        label: Contenuto
+        type: rich-text
+
+  - name: docs_md
+    label: Altre Pagine (MD)
+    type: collection
+    path: docs/src/content/docs
+    extension: md
+    fields:
+      - name: title
+        label: Titolo
+        type: string
+        required: true
+      - name: description
+        label: Descrizione
+        type: string
+      - name: body
+        label: Contenuto
         type: rich-text
