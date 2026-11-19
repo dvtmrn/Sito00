@@ -54,3 +54,19 @@ content:
       - name: body
         label: Contenuto
         type: rich-text
+
+      - name: app
+        label: App
+        type: collection
+        path: docs/src/content/docs/app
+        fields:
+          - name: title
+            label: Titolo
+            type: string
+            required: true
+      - name: description
+            label: Descrizione
+            type: string
+      - name: body
+        label: Contenuto
+        type: rich-text
