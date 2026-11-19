@@ -20,7 +20,16 @@ export default defineConfig({
               label: 'Home',
               link: '/',
             },
-          
+            'getting-started',
+            {
+              label: 'Starlight',
+              link: 'https://starlight.astro.build',
+              badge: 'External',
+              attrs: {
+                target: '_blank',
+                rel: 'noopener',
+              },
+            },
           ],
         }),
       ],
