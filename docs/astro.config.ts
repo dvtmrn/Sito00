@@ -46,7 +46,7 @@ export default defineConfig({
       social: [
         { href: 'https://github.com/adrian-ub/starlight-theme-black', icon: 'github', label: 'GitHub' },
       ],
-      title: 'starlight/black',
+      title: 'DVTMRN',
       locales: {
         root: { label: 'English', lang: 'en' },
         es: { label: 'Español', lang: 'es' },
