@@ -34,6 +34,10 @@ export default defineConfig({
           label: 'Examples',
           items: [{ autogenerate: { directory: 'examples' } }],
         },
+        {
+          label: 'Examples',
+          items: [{ autogenerate: { directory: 'app' } }],
+        },
       ],
       social: [
         { href: 'https://github.com/adrian-ub/starlight-theme-black', icon: 'github', label: 'GitHub' },
