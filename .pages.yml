@@ -70,3 +70,19 @@ content:
       - name: body
         label: Contenuto
         type: rich-text
+
+  - name: npm
+    label: Npm
+    type: collection
+    path: docs/src/content/docs/npm
+    fields:
+      - name: title
+        label: Titolo
+        type: string
+        required: true
+      - name: description
+        label: Descrizione
+        type: string
+      - name: body
+        label: Contenuto
+        type: rich-text
