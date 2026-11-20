@@ -86,3 +86,19 @@ content:
       - name: body
         label: Contenuto
         type: rich-text
+
+  - name: workers
+    label: Workers
+    type: collection
+    path: docs/src/content/docs/workers
+    fields:
+      - name: title
+        label: Titolo
+        type: string
+        required: true
+      - name: description
+        label: Descrizione
+        type: string
+      - name: body
+        label: Contenuto
+        type: rich-text     
