@@ -13,7 +13,7 @@ description: Tunnel di Cloudflare
 </div>
 
 <div style="display: flex; align-items: center; gap: 12px; margin-top: 16px;">
-  <a href="https://sftpgo.png" target="_blank" rel="noopener noreferrer">
+  <a href="https://sftpgo.dvtmrn.com" target="_blank" rel="noopener noreferrer">
     <img src="/images/sftpgo.png" alt="Logo SFTPGo" width="40" height="40" style="display: block;" />
   </a>
   <a href="https://sftpgo.dvtmrn.com" target="_blank" rel="noopener noreferrer" style="font-size: 1.2rem; font-weight: 600; text-decoration: none;">
@@ -22,7 +22,7 @@ description: Tunnel di Cloudflare
 </div>
 
 <div style="display: flex; align-items: center; gap: 12px; margin-top: 16px;">
-  <a href="https://truenas-scale.png" target="_blank" rel="noopener noreferrer">
+  <a href="https://true.dvtmrn.com.png" target="_blank" rel="noopener noreferrer">
     <img src="/images/truenas-scale.png" alt="Logo Truenas" width="40" height="40" style="display: block;" />
   </a>
   <a href="https://true.dvtmrn.com" target="_blank" rel="noopener noreferrer" style="font-size: 1.2rem; font-weight: 600; text-decoration: none;">
@@ -31,7 +31,7 @@ description: Tunnel di Cloudflare
 </div>
 
 <div style="display: flex; align-items: center; gap: 12px; margin-top: 16px;">
-  <a href="https://filebrowser.png" target="_blank" rel="noopener noreferrer">
+  <a href="https://fb.dvtmrn.com" target="_blank" rel="noopener noreferrer">
     <img src="/images/filebrowser.png" alt="Logo Filebrowser" width="40" height="40" style="display: block;" />
   </a>
   <a href="https://fb.dvtmrn.com" target="_blank" rel="noopener noreferrer" style="font-size: 1.2rem; font-weight: 600; text-decoration: none;">
