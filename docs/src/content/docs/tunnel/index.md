@@ -17,6 +17,16 @@ description: Tunnel di Cloudflare
     <img src="/images/sftpgo.png" alt="Logo SFTPGo" width="40" height="40" style="display: block;" />
   </a>
   <a href="https://sftpgo.dvtmrn.com" target="_blank" rel="noopener noreferrer" style="font-size: 1.2rem; font-weight: 600; text-decoration: none;">
-    FileBrowser Quantum
+    SFTPGo
   </a>
 </div>
+
+<div style="display: flex; align-items: center; gap: 12px; margin-top: 16px;">
+  <a href="https://truenas-scale.png" target="_blank" rel="noopener noreferrer">
+    <img src="/images/truenas-scale.png" alt="Logo SFTPGo" width="40" height="40" style="display: block;" />
+  </a>
+  <a href="https://true.dvtmrn.com" target="_blank" rel="noopener noreferrer" style="font-size: 1.2rem; font-weight: 600; text-decoration: none;">
+    Truenas Scale
+  </a>
+</div>
+
