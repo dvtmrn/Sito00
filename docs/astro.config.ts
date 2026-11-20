@@ -21,7 +21,7 @@ export default defineConfig({
               link: '/',
             },
             'getting-started',
-            'mariano',
+            'SFTPGo',
           ],
         }),
       ],
