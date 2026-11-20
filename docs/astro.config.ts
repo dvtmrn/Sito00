@@ -21,7 +21,10 @@ export default defineConfig({
               link: '/',
             },
             'getting-started',
-            'SFTPGo',
+            {
+               label: 'SFTPGo',
+               link: '/app/SFTPGo/',
+            },
           ],
         }),
       ],
