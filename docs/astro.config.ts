@@ -23,7 +23,7 @@ export default defineConfig({
             'getting-started',
             {
               label: 'Tunnel',
-              link: '/Tunnel/',
+              link: '/tunnel/',
             },
           ],
         }),
