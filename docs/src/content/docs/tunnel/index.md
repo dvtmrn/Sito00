@@ -22,7 +22,7 @@ description: Tunnel di Cloudflare
 </div>
 
 <div style="display: flex; align-items: center; gap: 12px; margin-top: 16px;">
-  <a href="https://true.dvtmrn.com.png" target="_blank" rel="noopener noreferrer">
+  <a href="https://true.dvtmrn.com" target="_blank" rel="noopener noreferrer">
     <img src="/images/truenas-scale.png" alt="Logo Truenas" width="40" height="40" style="display: block;" />
   </a>
   <a href="https://true.dvtmrn.com" target="_blank" rel="noopener noreferrer" style="font-size: 1.2rem; font-weight: 600; text-decoration: none;">
