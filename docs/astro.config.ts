@@ -25,6 +25,11 @@ export default defineConfig({
               label: 'Tunnel',
               link: '/tunnel/',
             },
+            {
+              label: 'NPM',
+              link: '/npm/',
+            },
+       
           ],
         }),
       ],
