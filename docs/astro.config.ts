@@ -11,9 +11,10 @@ export default defineConfig({
         alt: 'Starlight Black',
       },
       editLink: {
-        baseUrl: 'https://github.com/adrian-ub/starlight-theme-black/edit/main/docs/',
+        baseUrl: 'https://github.com/dvtmrn/Sito00/edit/main/docs/',
       },
-      plugins: [
+
+        plugins: [
         starlightThemeBlack({
           navLinks: [
             {
