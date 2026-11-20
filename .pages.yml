@@ -55,10 +55,10 @@ content:
         label: Contenuto
         type: rich-text
 
-  - name: app
-    label: App
+  - name: tunnel
+    label: Tunnel
     type: collection
-    path: docs/src/content/docs/app
+    path: docs/src/content/docs/tunnel
     fields:
       - name: title
         label: Titolo
