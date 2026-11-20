@@ -29,7 +29,10 @@ export default defineConfig({
               label: 'NPM',
               link: '/npm/',
             },
-       
+            {
+              label: 'Workers',
+              link: '/workers/',
+            },
           ],
         }),
       ],
