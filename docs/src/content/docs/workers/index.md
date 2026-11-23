@@ -2,7 +2,6 @@
 title: Tunnel di Cloudflare
 description: Workers
 ---
-workers
 
 ![Logo FileBrowser Quantum](/images/filebrowser-quantum.png)
 
