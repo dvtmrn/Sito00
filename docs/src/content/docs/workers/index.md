@@ -3,7 +3,6 @@ title: Tunnel di Cloudflare
 description: Workers
 ---
 
-
 <div style="display: flex; align-items: center; gap: 12px; margin-top: 16px;">
   <a href="https://fbq.workers.dev" target="_blank" rel="noopener noreferrer">
     <img src="/images/filebrowser-quantum.png" alt="Logo FileBrowser Quantum" width="40" height="40" style="display: block;" />
