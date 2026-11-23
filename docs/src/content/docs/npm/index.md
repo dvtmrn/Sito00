@@ -1,6 +1,6 @@
 ---
-title: Ngin proxy manager
-description: File bq
+title: NPM
+description: Ngin proxy manager
 ---
 Ngin proxy manager
 
