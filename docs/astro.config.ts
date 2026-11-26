@@ -46,25 +46,19 @@ export default defineConfig({
           label: 'Tunnel Cloudflare',
           items: [
             {
-              label: 'App su Tunnel',
-              collapsed: true,
-              items: [
-                {
-                  label: 'FileBrowser Quantum',
-                  link: 'https://fbq.dvtmrn.com',
-                  attrs: { target: '_blank', rel: 'noopener' },
-                },
-                {
-                  label: 'SFTPGo',
-                  link: 'https://sftpgo.dvtmrn.com',
-                  attrs: { target: '_blank', rel: 'noopener' },
-                },
-                {
-                  label: 'TrueNAS Scale',
-                  link: 'https://true.dvtmrn.com',
-                  attrs: { target: '_blank', rel: 'noopener' },
-                },
-              ],
+              label: 'FileBrowser Quantum',
+              link: 'https://fbq.dvtmrn.com',
+              attrs: { target: '_blank', rel: 'noopener' },
+            },
+            {
+              label: 'SFTPGo',
+              link: 'https://sftpgo.dvtmrn.com',
+              attrs: { target: '_blank', rel: 'noopener' },
+            },
+            {
+              label: 'TrueNAS Scale',
+              link: 'https://true.dvtmrn.com',
+              attrs: { target: '_blank', rel: 'noopener' },
             },
           ],
         },
