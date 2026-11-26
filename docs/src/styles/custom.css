@@ -23,3 +23,57 @@ sl-sidebar-state-persist > ul > li:nth-child(2),
 sl-sidebar-state-persist > ul > li:nth-child(3) {
   cursor: pointer;
 }
+
+/* Griglia a 3 colonne per la pagina Applicazioni */
+.app-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.app-col {
+  border: 1px solid var(--sl-color-gray-5);
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  background: var(--sl-color-bg-nav);
+}
+
+.app-col h2 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  font-size: 1.25rem;
+}
+
+.app-col p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.app-col ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.app-col li {
+  margin-bottom: 0.65rem;
+}
+
+.app-col li a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.app-col li a:hover {
+  text-decoration: underline;
+}
+
+/* Su schermi stretti o smartphone torna a 1 colonna */
+@media (max-width: 900px) {
+  .app-grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
