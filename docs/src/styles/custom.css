@@ -1,15 +1,9 @@
-/* Nasconde di default i link dentro il gruppo "Tunnel Cloudflare" */
-.sidebar-content ul.top-level > li:has(> span:first-child) ul,
-.sidebar-content .top-level > li > ul {
-  max-height: 0;
-  opacity: 0;
-  overflow: hidden;
-  transition: max-height 0.25s ease, opacity 0.2s ease;
+/* Nasconde le liste interne ai gruppi della sidebar finché non ci passi sopra */
+nav[aria-label="Main"] li:has(> ul) > ul {
+  display: none;
 }
 
-/* Li mostra quando passi con il mouse (hover) o metti il focus sul gruppo */
-.sidebar-content .top-level > li:hover > ul,
-.sidebar-content .top-level > li:focus-within > ul {
-  max-height: 500px;
-  opacity: 1;
+nav[aria-label="Main"] li:has(> ul):hover > ul,
+nav[aria-label="Main"] li:has(> ul):focus-within > ul {
+  display: block;
 }
