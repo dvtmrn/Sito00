@@ -13,8 +13,7 @@ export default defineConfig({
       editLink: {
         baseUrl: 'https://github.com/dvtmrn/Sito00/edit/main/docs/',
       },
-
-        plugins: [
+      plugins: [
         starlightThemeBlack({
           navLinks: [
             {
@@ -46,26 +45,28 @@ export default defineConfig({
           label: 'Tunnel Cloudflare',
           items: [
             {
-             label: 'App su Tunnel',
-             collapsed: true, // true = chiusa all'apertura (clicchi per aprire), false = già aperta
-             items: [
-               {
-                 label: 'FileBrowser Quantum',
-                 link: 'https://fbq.dvtmrn.com',
-                 attrs: { target: '_blank', rel: 'noopener' }, // apre in una nuova scheda (opzionale)
-               },
-               {
-                 label: 'SFTPGo',
-                 link: 'https://sftpgo.dvtmrn.com',
-                 attrs: { target: '_blank', rel: 'noopener' },
-               },
-               {
-                 label: 'TrueNAS Scale',
-                 link: 'https://true.dvtmrn.com',
-                 attrs: { target: '_blank', rel: 'noopener' },
-               },
-             ],
-           },
+              label: 'App su Tunnel',
+              collapsed: true,
+              items: [
+                {
+                  label: 'FileBrowser Quantum',
+                  link: 'https://fbq.dvtmrn.com',
+                  attrs: { target: '_blank', rel: 'noopener' },
+                },
+                {
+                  label: 'SFTPGo',
+                  link: 'https://sftpgo.dvtmrn.com',
+                  attrs: { target: '_blank', rel: 'noopener' },
+                },
+                {
+                  label: 'TrueNAS Scale',
+                  link: 'https://true.dvtmrn.com',
+                  attrs: { target: '_blank', rel: 'noopener' },
+                },
+              ],
+            },
+          ],
+        },
         {
           label: 'Nginx Proxy Manager',
           items: [{ autogenerate: { directory: 'npm' } }],
