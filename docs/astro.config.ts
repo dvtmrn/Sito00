@@ -64,7 +64,23 @@ export default defineConfig({
         },
         {
           label: 'Nginx Proxy Manager',
-          items: [{ autogenerate: { directory: 'npm' } }],
+          items: [
+            {
+              label: 'FileBrowser Quantum',
+              link: 'https://fbq.mdv0.duckdns.org',
+              attrs: { target: '_blank', rel: 'noopener' },
+            },
+            {
+              label: 'SFTPGo',
+              link: 'https://sftpgo.mdv0.duckdns.org',
+              attrs: { target: '_blank', rel: 'noopener' },
+            },
+            {
+              label: 'TrueNAS Scale',
+              link: 'https://true.mdv0.duckdns.org',
+              attrs: { target: '_blank', rel: 'noopener' },
+            },
+          ],
         },
       ],
       social: [
