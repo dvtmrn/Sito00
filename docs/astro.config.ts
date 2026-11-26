@@ -64,7 +64,8 @@ export default defineConfig({
                  link: 'https://true.dvtmrn.com',
                  attrs: { target: '_blank', rel: 'noopener' },
                },
-                    ],
+             ],
+           },
         {
           label: 'Nginx Proxy Manager',
           items: [{ autogenerate: { directory: 'npm' } }],
