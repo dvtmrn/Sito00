@@ -39,7 +39,7 @@ export default defineConfig({
       ],
       sidebar: [
         {
-          label: 'Start Here',
+          label: 'Barra_1',
           items: ['getting-started', 'customization', 'markdown-actions'],
         },
         {
