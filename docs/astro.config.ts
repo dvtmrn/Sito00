@@ -23,16 +23,8 @@ export default defineConfig({
             },
             'getting-started',
             {
-              label: 'Tunnel',
-              link: '/tunnel/',
-            },
-            {
-              label: 'NPM',
-              link: '/npm/',
-            },
-            {
-              label: 'Workers',
-              link: '/workers/',
+              label: 'Applicazioni',
+              link: '/applicazioni/',
             },
           ],
         }),
