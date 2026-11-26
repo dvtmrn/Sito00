@@ -5,6 +5,7 @@ import starlightThemeBlack from 'starlight-theme-black'
 export default defineConfig({
   integrations: [
     starlight({
+      customCss: ['./src/styles/custom.css'],
       logo: {
         dark: './src/assets/logo-dark.svg',
         light: './src/assets/logo-light.svg',
