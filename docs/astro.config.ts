@@ -43,12 +43,12 @@ export default defineConfig({
           items: ['getting-started', 'customization', 'markdown-actions'],
         },
         {
-          label: 'Examples',
-          items: [{ autogenerate: { directory: 'examples' } }],
+          label: 'Tunnel Cloudflare',
+          items: [{ autogenerate: { directory: 'Tunnel' } }],
         },
         {
-          label: 'Examples',
-          items: [{ autogenerate: { directory: 'app' } }],
+          label: 'Nginx Proxy Manager',
+          items: [{ autogenerate: { directory: 'Npm' } }],
         },
       ],
       social: [
