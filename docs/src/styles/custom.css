@@ -1,9 +1,18 @@
-/* Nasconde le liste interne ai gruppi della sidebar finché non ci passi sopra */
-nav[aria-label="Main"] li:has(> ul) > ul {
-  display: none;
+/* 1. Nasconde di default gli elementi dentro il 2° gruppo della sidebar (Tunnel Cloudflare) */
+sl-sidebar-state-persist > ul > li:nth-child(2) > ul,
+sl-sidebar-state-persist > ul > li:nth-child(2) > div:last-child {
+  display: none !important;
 }
 
-nav[aria-label="Main"] li:has(> ul):hover > ul,
-nav[aria-label="Main"] li:has(> ul):focus-within > ul {
-  display: block;
+/* 2. Li mostra quando passi con il mouse (hover) o clicchi su Tunnel Cloudflare */
+sl-sidebar-state-persist > ul > li:nth-child(2):hover > ul,
+sl-sidebar-state-persist > ul > li:nth-child(2):focus-within > ul,
+sl-sidebar-state-persist > ul > li:nth-child(2):hover > div:last-child,
+sl-sidebar-state-persist > ul > li:nth-child(2):focus-within > div:last-child {
+  display: block !important;
+}
+
+/* 3. Rende chiaro che "Tunnel Cloudflare" è interattivo al passaggio del mouse */
+sl-sidebar-state-persist > ul > li:nth-child(2) {
+  cursor: pointer;
 }
