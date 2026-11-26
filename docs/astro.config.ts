@@ -44,11 +44,11 @@ export default defineConfig({
         },
         {
           label: 'Tunnel Cloudflare',
-          items: [{ autogenerate: { directory: 'Tunnel' } }],
+          items: [{ autogenerate: { directory: 'tunnel' } }],
         },
         {
           label: 'Nginx Proxy Manager',
-          items: [{ autogenerate: { directory: 'Npm' } }],
+          items: [{ autogenerate: { directory: 'npm' } }],
         },
       ],
       social: [
